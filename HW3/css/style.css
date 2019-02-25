@@ -71,7 +71,7 @@ img {
   height: auto;
 }
 
-h5 {
+.img-title {
   font-family: "Ubuntu Light";
   font-size: 14px;
   color: #b4ad9e;
@@ -80,7 +80,7 @@ h5 {
   font-weight: normal;
 }
 
-h2 {
+.box-title {
   font-family: "Playfair Display Regular";
   font-size: 30px;
   line-height: 36px;
@@ -88,7 +88,7 @@ h2 {
   font-weight: normal;
 }
 
-p {
+.box-description {
   font-family: "Playfair Display Regular";
   font-size: 14px;
   line-height: 24px;
@@ -97,7 +97,7 @@ p {
 }
 
 button {
-  padding: 20px 33px 20px 33px;
+  padding: 18px 33px 18px 33px;
   font-size: 20px;
   line-height: 24px;
   font-family: "Playfair Display Regular";
