@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 901px;
+  margin: 0 auto;
+  text-color: #626262;
+  font-size: 0px;
+}
+
+.navigation {
+  box-sizing: content-box;
+  padding-top: 71px;
+  padding-bottom: 97px;
+  margin: 0;
+  font-family: "Playfair Display Regular";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-color: #626262;
+  line-height: 24px;
+  padding-left: 133px;
+  padding-right: 133px;
+}
+
+.navigation li {
+  display: inline-block;
+}
+.nav-lifestyle {
+  padding-right: 84px;
+}
+.nav-photodiary {
+  padding-right: 64px;
+}
+.nav-music {
+  padding-right: 54px;
+}
+.nav-travel {
+  padding-right: 0;
+}
+
+a {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: blue;
+}
+
+.box {
+  display: inline-block;
+  width: 421px;
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 59px;
+  margin-bottom: 127px;
+}
+.box:nth-child(2n) {
+  margin-right: 0;
+}
+.box:nth-last-of-type(-n + 2) {
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h5 {
+  font-family: "Ubuntu Light";
+  font-size: 14px;
+  color: #b4ad9e;
+  line-height: 17px;
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Playfair Display Regular";
+  font-size: 30px;
+  line-height: 36px;
+  color: #626262;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Playfair Display Regular";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  font-weight: normal;
+}
+
+button {
+  padding: 20px 33px 20px 33px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Playfair Display Regular";
+  color: #626262;
+  background-color: white;
+}
+
+.button {
+  margin: 55px 373px 70px 352px;
+  border-color: #626262;
+  border-style: solid;
+  border-width: 1px;
+}
