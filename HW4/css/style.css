@@ -5,29 +5,46 @@ body {
 }
 
 .wrapper {
+<<<<<<< HEAD
   width: 1140px;
+=======
+  min-width: 1170px;
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
   min-height: 1840px;
   margin: 15px auto;
   padding: 0 15px;
 }
 
 .logo {
+<<<<<<< HEAD
   padding: 20px, 15px, 20px, 0;
   width: 100px;
   height: 32px;
   float: left;
     /* display: inline-block; */
+=======
+  padding-left: 15px;
+  width: 600px;
+  float: left;
+
+  /* display: inline-block; */
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
 }
 .menu-item {
   float: left;
   margin: 0;
   line-height: 32px;
   font-size: 14px;
+<<<<<<< HEAD
+=======
+  color: black;
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
   font-family: "Roboto Black", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-stretch: condensed;
 }
+<<<<<<< HEAD
 .menu {
   float: right;
   padding-right: 30px;
@@ -35,13 +52,21 @@ body {
 }
 .menu-wrapper {
     height: 60px;
+=======
+.menu ul {
+  float: right;
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
 }
 
 .title {
   text-align: center;
   font-size: 48px;
   margin-top: 65px;
+<<<<<<< HEAD
   margin-bottom: 90px;
+=======
+  margin-bottom: 80px;
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
   font-weight: bold;
   font-family: "Roboto Black", sans-serif;
   text-transform: uppercase;
@@ -114,6 +139,7 @@ ul {
   padding: 0 12px;
   /* transition-duration: 0.3s; */
 }
+<<<<<<< HEAD
 .section-wrapper div {
   width: 1170;
 }
@@ -124,12 +150,24 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   float: left;
+=======
+
+.section-item {
+  width: 350px;
+  height: 540px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
 }
 
 a {
   padding: 0 20px;
   text-decoration: none;
+<<<<<<< HEAD
   color: black;
+=======
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
 }
 
 a:hover,
@@ -149,7 +187,10 @@ a:focus {
   text-align: 26px;
   border: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2647f74deee710d686b3087f5fb8235d4992dbde
 .section-title {
   font-family: "OpenSans Semibold", sans-serif;
   min-height: 45px;
