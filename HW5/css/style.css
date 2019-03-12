@@ -7,11 +7,8 @@ main {
   float: left;
   width: 100px;
   height: 40px;
-  /* display: flex; */
 }
-.logo a {
-  /* align-items: center; */
-}
+
 .logo-wrapper {
   height: 40px;
   width: 50px;
@@ -169,7 +166,6 @@ a:focus {
   font-family: "Roboto Black", sans-serif;
   text-transform: uppercase;
   color: rgb(82, 82, 82);
-  /* font-stretch: semi-condensed; */
 }
 .title::after {
   content: "";
@@ -255,13 +251,11 @@ a:focus {
   cursor: pointer;
   margin: 0 5px 10px;
   vertical-align: top;
-  float: top;
 }
 
 .icon-btn-cart {
   width: 178px;
   height: 50px;
-  float: bottom;
   background: #323232;
 }
 .add {
@@ -270,7 +264,6 @@ a:focus {
   line-height: 40px;
   font-family: "Open Sans Regular", sans-serif;
   padding: 10px;
-  margin-left: 10px;
 }
 .icon-cart {
   margin: 5px;
@@ -315,9 +308,6 @@ a:focus {
   font-family: "Open Sans Regular", san-serif;
   font-size: 16px;
   line-height: 28px;
-  /* vertical-align: middle; */
-  /* display: flex;
-  align-items: center; */
 }
 .footer p {
   margin: 0;
