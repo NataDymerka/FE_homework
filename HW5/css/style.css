@@ -72,7 +72,7 @@ a:focus {
 .slider-wrapper {
   position: relative;
   height: 600px;
-  max-width: fluid;
+  width: 100%;
 }
 
 .slider-img {
@@ -91,7 +91,7 @@ a:focus {
 
 .container {
   max-width: 1170px;
-  height: 113 px;
+  height: 113px;
   margin: auto;
   padding: 0 15px;
 }
@@ -116,7 +116,7 @@ a:focus {
   text-transform: uppercase;
   color: #fff;
   font-stretch: expanded;
-  font-weight: 50;
+  font-weight: lighter;
 }
 
 .arrow {
