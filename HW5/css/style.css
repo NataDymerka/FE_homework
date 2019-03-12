@@ -72,7 +72,7 @@ a:focus {
 .slider-wrapper {
   position: relative;
   height: 600px;
-  width: 100%;
+  width: auto;
 }
 
 .slider-img {
@@ -91,7 +91,6 @@ a:focus {
 
 .container {
   max-width: 1170px;
-  height: 113px;
   margin: auto;
   padding: 0 15px;
 }
