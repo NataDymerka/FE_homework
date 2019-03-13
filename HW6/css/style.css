@@ -1,0 +1,59 @@
+body {
+    width: 1201px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    /* padding: 0 18px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #95e1d3;
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 14px;
+    /* height: 40px; */
+    display: inline-block;
+    /* line-height: 40px; */
+}
+.menu-wrapper {
+    width: 1201px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+    width: 490px;
+
+}
+.menu-item {
+
+}
+
+
+.card-item {
+    width: 380px;
+    /* padding: 90px 10px; */
+    margin: 90px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
