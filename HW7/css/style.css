@@ -7,7 +7,6 @@
   --font-r: "Roboto Slab", sans-serif;
   --font-m: "Montserrat", sans-serif;
   --font-d: "DroidSerif Italic", sans-serif;
-  --font-mb: "Montserrat Bold", sans-serif;
 }
 main {
   width: calc((var(--col) * 6) + 70px);
@@ -58,7 +57,7 @@ a:hover {
 }
 .title {
   text-align: center;
-  font-family: var(--font-mb);
+  font-family: var(--font-m);
   font-size: 40px;
   line-height: 70px;
   margin: 0;
@@ -75,7 +74,8 @@ a:hover {
   font-style: italic;
 }
 .service-title {
-  font-family: var(--font-mb);
+  font-family: var(--font-m);
+  font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   margin: 15px 0;
@@ -168,7 +168,7 @@ input {
   box-shadow: none;
   border-radius: 5px;
   padding-left: 10px;
-  font-family: var(--font-mb);
+  font-family: var(--font-m);
   font-weight: bold;
   color: #000;
 }
@@ -193,7 +193,7 @@ textarea {
   margin-bottom: 28px;
   border-radius: 5px;
   padding: 10px 10px;
-  font-family: var(--font-mb);
+  font-family: var(--font-m);
   font-weight: bold;
   font-size: 14px;
   color: #bbb;
@@ -206,7 +206,7 @@ input[type="submit"] {
   border: none;
   color: #fff;
   text-transform: uppercase;
-  font-family: var(--font-mb);
+  font-family: var(--font-m);
   font-size: 18px;
   font-weight: bold;
   text-align: center;
