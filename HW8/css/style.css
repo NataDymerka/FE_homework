@@ -1,15 +1,15 @@
 body {
   margin: 0 auto;
 }
-/* header {
-    width: 100%;
-} */
 .container {
   margin: 0 auto;
   text-align: center;
-  max-width: 940px;
 }
-
+.container-header {
+  margin: 0 auto;
+  max-width: 940px;
+  max-height: 700px;
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -20,10 +20,10 @@ a {
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  background-size: cover;
+  /* text-align: center; */
   margin: 0 auto;
 }
-
 .btn {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -36,11 +36,11 @@ a {
   text-align: center;
   text-decoration: none;
 }
-.btn:hover {
-  border: 2px solid #fff;
-}
 .btn-small {
   background-color: transparent;
+}
+.btn-small:hover {
+    border: 2px solid #fff;
 }
 .btn-big {
   width: 280px;
@@ -54,7 +54,14 @@ a {
   background-color: #fff;
   border: 2px solid #ff4e50;
 }
-
+.btn-big--footer {
+    margin-bottom: 55px;
+    margin-top: 15px;
+}
+.btn-big--footer a {
+    display: block;
+    width: 240px;
+}
 .authorize {
   display: flex;
   justify-content: center;
@@ -83,12 +90,10 @@ h3 {
   margin: 15px auto;
 }
 .card-item {
-  height: 240px;
-  width: 236px;
+  width: 265px;
   padding: 10px 30px;
   text-align: center;
   margin: 0 auto;
-  
 }
 .section-title {
   font-family: "Montserrat", sans-serif;
@@ -111,7 +116,6 @@ h3 {
 .text-wrp {
   padding: 5px 25px;
 }
-
 .card-title {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -124,6 +128,7 @@ h3 {
   font-size: 14px;
   color: #666;
   font-weight: 300;
+  margin: 10px 0;
 }
 .image-wrp {
   margin: 0 auto;
@@ -146,22 +151,21 @@ h3 {
   bottom: 4px;
 }
 .section {
-  width: 100%;
+  width: 320px;
 }
-.btn-big-footer {
-  margin-bottom: 55px;
-}
-
 @media (min-width: 748px) {
-   .header-fluid {
+  .header-fluid {
     width: 100%;
     height: 700px;
     background-image: url(../img/header-bg@tablet.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: 100%;
+  }
+  .container-header {
     position: relative;
   }
-    .authorize {
+  .authorize {
     margin: 0;
     position: absolute;
     right: 50px;
@@ -176,38 +180,77 @@ h3 {
   }
   .header-text-wr {
     padding-top: 220px;
-
   }
   .header-title {
-    font-size: 51px;
+    font-size: 52px;
   }
   .header-text {
-    font: size 24px;
+    font-size: 24px;
+  }
+  .btn--header {
+    width: 236px;
   }
   .card-wr {
-      width: 492px;
-      height: 535px;
-      margin: 0 auto;
-      display: flex;
-      flex-shrink: 0;
-      flex-direction: column;
-      flex-wrap: wrap;
-      padding: 10px 0;
+    width: 492px;
+    height: 535px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex-shrink: 0;
+    padding: 10px 0;
   }
   .text-wrp {
     padding: 0;
-}
-  .card-item {
-      width: 236px;
-      height: 240px;
-      padding: 10px 0;
-  
   }
-  /* .order3 {
-    order: 3;
-}
-.order4 {
-    order: 4;
-} */
+  .card-item {
+    width: 236px;
+    height: 240px;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .btn-big-footer {
+    width: 190px;
+    margin-bottom: 40px;
+} 
+.btn-big--footer a {
+    display: block;
+    width: 190px;
 }
 
+@media (min-width: 940px) {
+.header-fluid {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/header-bg@desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 0;
+}
+.btn--header {
+    width: 230px;
+
+}
+.card-wr {
+    width: 940px;
+    height: 263px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    padding: 10px 0;
+  }
+.card-item  {
+    padding: 10px 10px;
+}
+.order2 {
+    order: 1;
+}
+.order3 { 
+    order: 2;
+}
+.order4 {
+    order: 2;
+}
+.btn-big-footer {
+    width: 180px;
+    margin-bottom: 75px;
+  }}
