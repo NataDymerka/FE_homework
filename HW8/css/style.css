@@ -73,14 +73,8 @@ a {
   text-align: center;
   line-height: 1.2;
 }
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-stretch: expanded;
-  margin: 30px auto;
-  color: #fff;
+.logo {
+    margin: 30px auto;
 }
 .header-title {
   text-transform: uppercase;
@@ -239,7 +233,7 @@ h3 {
     padding: 10px 0;
   }
 .card-item  {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
 }
 .order2 {
     order: 1;
