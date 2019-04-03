@@ -84,7 +84,7 @@ a {
   margin: 15px auto;
 }
 .card-item {
-  width: 265px;
+  width: 260px;
   padding: 10px 30px;
   text-align: center;
   margin: 0 auto;
@@ -197,7 +197,7 @@ a {
     padding: 0;
   }
   .card-item {
-    width: 236px;
+    width: 235px;
     height: 240px;
     padding: 10px 0;
     margin: 0;
@@ -210,7 +210,7 @@ a {
     display: block;
     width: 190px;
 }
-
+}
 @media (min-width: 940px) {
 .header-fluid {
     width: 100%;
@@ -233,7 +233,7 @@ a {
     padding: 10px 0;
   }
 .card-item  {
-    /* padding: 10px 10px; */
+  width: 220px;
 }
 .order2 {
     order: 1;
