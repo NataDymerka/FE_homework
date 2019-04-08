@@ -223,10 +223,10 @@ a {
 }
 .btn--header {
     width: 230px;
-
+  
 }
 .card-wr {
-    width: 940px;
+    width: 910px;
     height: 263px;
     margin: 0 auto;
     flex-shrink: 0;
