@@ -33,10 +33,6 @@
 body {
   margin: 0 auto;
 }
-.page-header {
-  display: block;
-  min-width: 100%;
-}
 .menu {
   list-style-type: none;
   padding: 0;
@@ -51,7 +47,7 @@ body {
 .link {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Montserrat Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #fff;
@@ -65,7 +61,7 @@ body {
 .container-fluid {
   width: 100%;
   height: 1000px;
-  background-image: url(/img/menu/picture@1x.jpg);
+  background-image: url(../img/menu/picture@1x.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -184,7 +180,7 @@ body {
 
 .section__title {
   text-align: center;
-  font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin: 0;
   font-weight: bold;
@@ -427,7 +423,7 @@ body {
   transition: all 0.3s linear;
 }
 .team__name-title {
-  font-family: "Montserrat Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;
@@ -456,7 +452,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Montserrat Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   height: 60px;
   border-top: 1px solid #e5e5e5;
@@ -525,6 +521,6 @@ input::placeholder {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
   .container-fluid {
-    background-image: url(/img/menu/picture@2x.jpg);
+    background-image: url(../img/menu/picture@2x.jpg);
   }
 }
