@@ -1,0 +1,17 @@
+.header-text {
+  color: $menu-text-color;
+  text-align: center;
+  width: calc($cl * 12);
+  &__subtitle {
+    font-family: $subtitle;
+    font-weight: 400;
+    font-size: 72px;
+    padding: 15px 0 20px 0;
+  }
+  &__title {
+    @extend %title-uppercase;
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 140px;
+  }
+}

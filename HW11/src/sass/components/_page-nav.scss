@@ -1,0 +1,6 @@
+.page-nav {
+  width: calc($cl * 12);
+  margin-bottom: 140px;
+  @include between('betw');
+  align-items: baseline;
+}

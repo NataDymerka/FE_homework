@@ -1,0 +1,46 @@
+.team__item {
+  width: 380px;
+  height: 625px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.team__item-text-wrapper {
+  width: 380px;
+  flex-shrink: 0;
+  margin-bottom: 60px;
+}
+
+.team__text {
+  text-align: center;
+  margin: 30px 115px 90px 115px;
+}
+
+.team__list {
+  width: $cl12;
+  height: 625px;
+  margin: 0 auto;
+  @include between('betw');
+}
+
+.team__name-title {
+  font-family: $title;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  color: $main-text;
+  margin: 0;
+}
+
+.team__position-title {
+  font-family: 'Roboto Light Italic', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  color: $section-text;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}

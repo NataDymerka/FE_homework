@@ -1,0 +1,28 @@
+.services {
+  @include between('betw');
+  flex-wrap: wrap;
+
+  &__item {
+    width: 380px;
+    margin: 45px 10px;
+    @include between('betw');
+
+    &:nth-child(-n + 3) {
+      margin-top: 25px;
+    }
+  }
+
+  &__icon-img {
+    flex-basis: $col;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+  &__info-title {
+    font-family: $title;
+    font-size: $text-font-size;
+    margin: 0;
+    color: $main-text;
+    font-weight: normal;
+  }
+}

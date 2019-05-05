@@ -1,0 +1,50 @@
+.footer__wrapper {
+  @include between('betw');
+  @include center-flex('ver');
+  font-family: $title;
+  height: 60px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer__link {
+  color: $accent;
+  text-transform: none;
+}
+
+.footer__form {
+  font-size: 0;
+  vertical-align: middle;
+}
+
+input {
+  font-size: 16px;
+  border: none;
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+input[type='email'] {
+  width: 230px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+
+input[type='submit'] {
+  @extend %title-uppercase;
+  width: 152px;
+  height: 40px;
+  background: #95e1d3;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #e7e7e7;
+  font-family: $paragraph;
+  font-style: italic;
+  font-size: 15px;
+}

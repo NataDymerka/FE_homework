@@ -1,0 +1,39 @@
+.socials {
+  @include center-flex($type: 'hor');
+  position: absolute;
+  left: $col;
+  top: 210px;
+  transform: translate(50%, 50%);
+  z-index: 23;
+  opacity: 0;
+
+  &__icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    fill: $accent;
+  }
+
+  &__btn {
+    margin: 0;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-right: 1px solid $accent;
+    background-color: $menu-accent;
+    cursor: pointer;
+  }
+
+  &__btn--insta {
+    border: none;
+  }
+
+  &__btn:hover {
+    background-color: $accent;
+  }
+
+  &__btn:hover .socials__icon {
+    fill: $menu-text-color;
+  }
+}

@@ -1,0 +1,17 @@
+.col-1 {
+  width: $cl;
+}
+.col-2 {
+  width: $col;
+}
+.col-6 {
+  width: $cl6;
+}
+.col-12 {
+  width: $cl12;
+}
+
+body {
+  margin: 0 auto;
+  font-size: $text-font-size;
+}

@@ -1,0 +1,25 @@
+.section__title {
+  text-align: center;
+  font-family: $title;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+
+  &:after {
+    @include after(block, '');
+    background-color: $accent;
+    width: 60px;
+    height: 4px;
+    margin: 40px auto;
+  }
+}
+
+.section__subtitle {
+  text-align: center;
+  font-family: $subtitle;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 15px 0;
+  padding-top: 15px;
+}

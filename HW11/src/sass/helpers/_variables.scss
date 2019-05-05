@@ -1,0 +1,14 @@
+$col: 80px;
+$gap: 20px;
+$cl: calc(#{$col} + #{$gap});
+$cl6: calc(#{$cl} * 6);
+$cl12: calc(#{$cl} * 12);
+$text-font-size: 14px;
+$main-text: #333;
+$section-text: #999;
+$accent: #f38181;
+$menu-accent: #fce38a;
+$menu-text-color: #fff;
+$title: "Montserrat", sans-serif;
+$subtitle: "Kaushan Script", sans-serif;
+$paragraph: "Roboto", sans-serif;
